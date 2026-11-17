@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Puneet Sharma | Cybersecurity Professional</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background-color: #f5f8fc;
+    }
+
+    .hero {
+        min-height: 100vh;
+        background: linear-gradient(
+            rgba(10,25,70,0.85),
+            rgba(10,25,70,0.85)
+        ),
+        url("images/thales-building.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        color: white;
+    }
+
+    .hero-content {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        border: 4px solid rgba(255,255,255,0.2);
+    }
+
+    .hero-text h1 {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .hero-text h2 {
+        color: #76d4ff;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 28px;
+        background: #00a3e0;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #0083b3;
+    }
+
+    section {
+        padding: 80px 10%;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 50px;
+        color: #172554;
+    }
+
+    .story-section {
+        background: white;
+    }
+
+    .story-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 30px;
+    }
+
+    .card {
+        background: #f8fafc;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+        color: #1e3a8a;
+        margin-bottom: 15px;
+    }
+
+    .thales-banner {
+        text-align: center;
+        background: #172554;
+        color: white;
+    }
+
+    .thales-banner img {
+        width: 350px;
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .timeline {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .timeline-item {
+        background: white;
+        padding: 25px;
+        margin-bottom: 20px;
+        border-left: 6px solid #00a3e0;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    }
+
+    footer {
+        background: #0f172a;
+        color: white;
+        text-align: center;
+        padding: 35px;
+    }
+
+    @media(max-width: 900px){
+        .hero-content {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+        }
+
+        .profile-image {
+            max-width: 350px;
+            margin: auto;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <img src="images/puneet-headshot.png"
+             alt="Profile Photo"
+             class="profile-image">
+
+        <div class="hero-text">
+            <h1>Puneet Sharma</h1>
+            <h2>Cybersecurity Professional | Thales</h2>
+
+            <p>
+                Exploring the intersection of cybersecurity,
+                critical infrastructure protection, cloud security,
+                and digital trust.
+            </p>
+
+            <p>
+                Welcome to my personal corner of the web.
+                This site shares a fictional story inspired by my
+                passion for protecting modern digital ecosystems.
+            </p>
+
+            <a href="#story" class="btn">
+                Read the Story
+            </a>
+        </div>
+
+    </div>
+
+</header>
+
+<section class="story-section" id="story">
+
+    <h2 class="section-title">
+        A Fictional Journey in Cybersecurity
+    </h2>
+
+    <div class="story-grid">
+
+        <div class="card">
+            <h3>Chapter 1: The Beginning</h3>
+            <p>
+                In this fictional story, Puneet joined Thales after
+                becoming fascinated by how nations, enterprises,
+                airports, transportation systems, and financial
+                institutions rely on secure digital infrastructure.
+                The mission was simple: help organizations
+                build trust in an increasingly connected world.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Chapter 2: Securing What Matters</h3>
+            <p>
+                Working alongside engineers and security specialists,
+                Puneet participated in simulated projects involving
+                identity protection, cloud security architecture,
+                encryption strategies, and cyber resilience.
+                Every challenge reinforced the idea that security
+                should enable innovation rather than slow it down.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Chapter 3: Looking Forward</h3>
+            <p>
+                The future envisioned in this story includes
+                AI-assisted defense, quantum-safe cryptography,
+                and globally connected digital ecosystems.
+                Success comes not from fighting threats alone,
+                but from building trust into every system by design.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="thales-banner">
+
+    <img src="images/thales-logo.png"
+         alt="Thales Logo">
+
+    <h2>Building Trust in a Connected World</h2>
+
+    <br>
+
+    <p style="max-width:800px; margin:auto;">
+        Cybersecurity is more than technology.
+        It is the confidence that information,
+        systems, and people remain protected
+        when it matters most. In this fictional
+        showcase website, the goal is to illustrate
+        a passion for digital trust, resilience,
+        and innovation.
+    </p>
+
+</section>
+
+<section>
+
+    <h2 class="section-title">
+        Milestones From The Story
+    </h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>2023</h3>
+            <p>
+                Began researching cloud-native security and
+                modern cyber defense frameworks.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2024</h3>
+            <p>
+                Joined fictional strategic initiatives focused
+                on protecting global infrastructure and
+                improving cyber resilience.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>2025</h3>
+            <p>
+                Led a fictional research project exploring
+                AI-powered threat detection and zero-trust
+                security architectures.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Future Vision</h3>
+            <p>
+                Helping organizations prepare for emerging
+                security challenges including quantum-safe
+                cryptography, identity-first security,
+                and autonomous cyber defense.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 Puneet Sharma | Demo Static Website
+    </p>
+
+    <p>
+        This website contains fictional content created for
+        demonstration and testing purposes.
+    </p>
+</footer>
+
+</body>
+</html>
